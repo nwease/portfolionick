@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "My Portfolio Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "server": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "Nicholas Wease",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-watch": "^4.3.11",
+    "node-sass": "^4.5.3",
+    "webpack": "^3.7.1"
+  }
+}
