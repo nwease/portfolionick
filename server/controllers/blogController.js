@@ -6,4 +6,8 @@ blogControllers.index = (req, res) => {
   res.render('blog/index')
 }
 
+blogControllers.show = (req, res) => {
+  res.render('blog/show')
+}
+
 module.exports = blogControllers

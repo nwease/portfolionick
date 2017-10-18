@@ -27,6 +27,7 @@ router.delete('/projects/:title', projectsController.destroy)
 Blog
 ==============================================================================*/
 router.get('/blog', blogController.index)
+router.get('/blog/:title', blogController.show)
 
 /* =============================================================================
 Admin
