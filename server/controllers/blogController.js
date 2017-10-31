@@ -1,13 +1,21 @@
 const express = require('express')
 
-const blogControllers = {}
+const blogController = {}
 
-blogControllers.index = (req, res) => {
-  res.render('blog/index')
+blogController.index = (req, res) => {
+    res.render('blog/index')
 }
 
-blogControllers.show = (req, res) => {
+blogController.show = (req, res) => {
   res.render('blog/show')
 }
 
-module.exports = blogControllers
+blogController.create = (req, res) => {
+  res.render('blog/create')
+}
+
+blogController.store = (req, res) => {
+    res.send(req.body)
+}
+
+module.exports = blogController

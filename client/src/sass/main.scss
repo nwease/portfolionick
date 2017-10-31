@@ -10,13 +10,14 @@ Pages
 /*
 Projects
 */
-@import "projects/_index";
-@import "projects/_show";
+@import "projects/index";
+@import "projects/show";
 /*
 Blog
 */
-@import "blog/_index";
-@import "blog/_show";
+@import "blog/index";
+@import "blog/show";
+@import "blog/create";
 
 * {
   font-family: $mainFont;

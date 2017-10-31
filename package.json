@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js",
-    "server": "node server/server.js"
+    "server": "node server/server.js",
+    "watch": "gulp"
   },
   "keywords": [],
   "author": "Nicholas Wease",
@@ -17,11 +18,13 @@
     "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
+    "body-parser": "^1.18.2",
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-watch": "^4.3.11",
+    "mongoose": "^4.12.4",
     "node-sass": "^4.5.3",
     "webpack": "^3.7.1"
   }
