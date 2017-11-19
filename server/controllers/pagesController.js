@@ -1,6 +1,6 @@
 const express = require('express')
 
-var pagesController = {}
+var pagesController = {};
 
 pagesController.homePage = (req, res) => {
   res.render('pages/home')
