@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(methodOverride('_method'))
 var myDB = 'mongodb://localhost/portfolio';
 
-mongoose.createConnection(myDB, function () {
+mongoose.connect(myDB, function () {
   if (mongoose.connection.readyState == 1) {
     console.log('connected to mongoDB')
     console.log('on ' + myDB)
