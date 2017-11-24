@@ -14,7 +14,7 @@ app.set('views', path.join(__dirname, '../client/src/views'))
 
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(methodOverride('_method'))
-var myDB = 'mongodb://localhost/portfolio';
+var myDB = 'mongodb://localhost/portfolionick';
 
 mongoose.connect(myDB, function () {
   if (mongoose.connection.readyState == 1) {
